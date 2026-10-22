@@ -150,6 +150,16 @@ function App() {
                     <span className="project-period">{t[project.period]}</span>
                   </div>
                   <p className="project-contribution">{t[project.contribution]}</p>
+                  <div className="project-detail-grid">
+                    <div className="project-detail-block">
+                      <span>{t.projectObjective}</span>
+                      <p>{t[project.objective]}</p>
+                    </div>
+                    <div className="project-detail-block">
+                      <span>{t.projectDeliverables}</span>
+                      <ul>{t[project.deliverables].map((item) => <li key={item}>{item}</li>)}</ul>
+                    </div>
+                  </div>
                   <div className="project-bottom">
                     <div className="project-stack">{t[project.stack].map((item) => <span key={item}>{item}</span>)}</div>
                     {project.links.length > 0 && (

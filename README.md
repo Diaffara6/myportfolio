@@ -20,7 +20,7 @@ npm run preview
 
 Le dépôt est configuré pour publier automatiquement le site sur GitHub Pages à chaque push sur `main`, via GitHub Actions. Le workflow construit le site avec le chemin Vite correspondant au dépôt, puis le déploie.
 
-Adresse du site : <https://diaffara6.github.io/myportofolio/>
+Adresse du site : <https://diaffara6.github.io/myportfolio/>
 
 Si GitHub Pages n'est pas encore activé pour le dépôt, aller dans **Settings → Pages** et choisir **GitHub Actions** comme source de déploiement.
 
